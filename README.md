@@ -27,7 +27,7 @@ This repo provides pre-made scripts for using Terraform to instantiate an AWS EC
    ```
 
 ## Deploy using Terraform
-*this repo provides a* `main.tf` *already; however, you may need to make changes to it based on server hardware requirements and/or region preferences*
+*This repo provides a* `main.tf` *already; however, you may need to make changes to it based on server hardware requirements and/or region preferences*
 1) In your terminal, navigate to the location of `main.tf`
 2) Ensure your key pair path is correctly listed throughout the file (e.g. `~/.ssh/id_rsa`).
 3) Under `resource "null_resource" "run_minecraft_setup" {`, edit the line
