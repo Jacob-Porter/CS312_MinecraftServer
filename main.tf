@@ -1,3 +1,5 @@
+# Version: 0.0.1
+
 # provider setup
 provider "aws" {
   region = "us-west-2" # Change to your preferred region

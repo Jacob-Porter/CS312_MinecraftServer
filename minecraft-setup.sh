@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Version: 0.0.1
+
 # *** INSERT SERVER DOWNLOAD URL BELOW ***
 # Do not add any spaces between your link and the "=", otherwise it won't work. EG: MINECRAFTSERVERURL=https://urlexample
 
