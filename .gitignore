@@ -1,4 +1,4 @@
-# Ignore everything Terraform-related
+# ignore everything Terraform-related
 *.tf
 *.tfstate
 *.tfstate.*
