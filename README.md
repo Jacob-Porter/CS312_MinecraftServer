@@ -1,10 +1,13 @@
 # CS312_MinecraftServer
 
+## Background
+This repo provides pre-made scripts for using Terraform to instantiate an AWS EC2 instance and auto-setup a Minecraft server. It starts with listing requirements for the tutorial, configuring your AWS CLI with your AWS credentials, and finally making minor changes to `minecraft-setup.sh` and `main.tf` so that your terraform deployment takes only 2 commands and your own Minecraft server can be born. 
+
+
 ## Requirements
 1) [Terraform](https://developer.hashicorp.com/terraform/install) is installed
 2) [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) is installed
 3) Already have or able to create an [ssh key pair](https://www.ssh.com/academy/ssh/keygen)
-
 
 ## Configure AWS CLI
 *If you are using AWS Learner Lab environment, ignore this section.*
