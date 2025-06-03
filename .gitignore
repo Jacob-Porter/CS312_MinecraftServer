@@ -1,0 +1,17 @@
+# Ignore everything Terraform-related
+*.tf
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+terraform.rc
+terraform.d/
+*.backup
+*.log
+terraform.lock.hcl
+.terraform*
+
+# keep main.tf
+!main.tf
