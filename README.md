@@ -2,6 +2,7 @@
 
 ## Background
 *This tutorial results in charges from AWS! Charges incur while your [instance](https://aws.amazon.com/ec2/instance-types/) is running and while you control an [Elastic IP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)! Ensure that your instance is terminated to not be charged any further!*
+
 This repo provides pre-made scripts for using Terraform to instantiate an AWS EC2 instance and auto-setup a Minecraft server. It starts with listing requirements for the tutorial, configuring your AWS CLI with your AWS credentials, and finally making minor changes to `minecraft-setup.sh` and `main.tf` so that your terraform deployment takes only 2 commands and your own Minecraft server can be born. 
 
 
