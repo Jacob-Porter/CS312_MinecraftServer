@@ -55,7 +55,7 @@ This repo provides pre-made scripts for using Terraform to instantiate an AWS EC
    ```
 7) This should create and set up your EC2 instance with a VPC, subnet, security group, gateway, and Elastic IP; pull your Minecraft server file from your S3 bucket; and start your Minecraft server file automatically. *(It may take a couple of minutes for the Minecraft server file to finish setting up!)*
 8) You should see output listing the EC2 instance's IP address. This can be used to connect via Minecraft or to scan using tools such as `nmap` at port 25565.
-9) To terminate your minecraft server, run the following and say "yes" when prompted:
+9) To terminate your Minecraft server, run the following and say "yes" when prompted:
    ```bash
    terraform destroy
    ```
