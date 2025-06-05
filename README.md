@@ -1,7 +1,7 @@
 # CS312_MinecraftServer
 
 ## Background
-*This tutorial results in charges from AWS! Charges incur while your [instance](https://aws.amazon.com/ec2/instance-types/) is running and while you control an [Elastic IP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)! Ensure that your instance is terminated to not be charged any further!*
+*This tutorial results in charges from AWS! Charges incur while your [instance](https://aws.amazon.com/ec2/instance-types/) is running **and** while you control an [Elastic IP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)! Ensure that your instance is terminated to not be charged any further!*
 
 This repo provides pre-made scripts for using Terraform to instantiate an AWS EC2 instance and auto-setup a Minecraft server. It starts with listing requirements for the tutorial, configuring your AWS CLI with your AWS credentials, and finally making minor changes to `minecraft-setup.sh` and `main.tf` so that your terraform deployment takes only 2 commands and your own Minecraft server can be born. 
 
@@ -55,7 +55,7 @@ This repo provides pre-made scripts for using Terraform to instantiate an AWS EC
    ```
 7) This should create and set up your EC2 instance with a VPC, subnet, security group, gateway, and Elastic IP; pull your Minecraft server file from your S3 bucket; and start your Minecraft server file automatically. *(It may take a couple of minutes for the Minecraft server file to finish setting up!)*
 8) You should see output listing the EC2 instance's IP address. This can be used to connect via Minecraft or to scan using tools such as `nmap` at port 25565.
-9) To takedown your minecraft server, run the following and say "yes" when prompted:
+9) To terminate your minecraft server, run the following and say "yes" when prompted:
    ```bash
    terraform destroy
    ```
