@@ -19,6 +19,10 @@ This repo provides pre-made scripts for using Terraform to instantiate an AWS EC
   aws configure
   ```
 4) Enter information asked and set your preferred region (I'm using `us-west-2`) *for output format, you can either leave it blank or use* `json`.
+5) If terraform is saying `"You are not authorized to perform this operation."`, it may be due to it also requiring your session token. To update your AWS CLI with your AWS session token, run the command:
+   ```bash
+   aws configure set aws_session_token YOUR_AWS_SESSION_TOKEN
+   ``` 
 
 ## Minecraft Server File
 *This repo provides a minecraft server file already — it will require minor manual changes to work*
